@@ -33,6 +33,7 @@
 			  "name": "Nina Carducci",
 			  "image": "https://cyril-hub-76.github.io/NinaCarducci/assets/images/Nina.webp",
 			  "telephone": "05 56 67 78 89",
+			  "priceRange": "€€",
 			  "address": {
 				"@type": "PostalAddress",
 				"streetAddress": "68 avenue Alsace-Lorraine",
@@ -41,37 +42,19 @@
 				"addressCountry": "FR",
 				"postalCode": "33200"
 			  },
-			  "openingHoursSpecification": [
-			  		{
-						"@type": "OpeningHoursSpecification",
-						"dayOfWeek": "Lundi",
-						"opens": "10:00",
-						"closes": "19:00"
-			  		},
-			  		{
-						"@type": "OpeningHoursSpecification",
-						"dayOfWeek": "Mardi",
-						"opens": "10:00",
-						"closes": "19:00"
-			  		},
-			  		{
-						"@type": "OpeningHoursSpecification",
-						"dayOfWeek": "Mercredi",
-						"opens": "10:00",
-						"closes": "19:00"
-			  		},
-			  		{
-						"@type": "OpeningHoursSpecification",
-						"dayOfWeek": "Jeudi",
-						"opens": "10:00",
-						"closes": "19:00"
-			  		},
-			  		{
-						"@type": "OpeningHoursSpecification",
-						"dayOfWeek": "Vendredi",
-						"opens": "10:00",
-						"closes": "19:00"
-			  		}
+			  "openingHoursSpecification": [ 		
+        			{
+          				"@type": "OpeningHoursSpecification",
+          				"dayOfWeek": [
+            				"Lundi",
+            				"Mardi",
+                	      	"Mercredi",
+                	      	"Jeudi",
+                	      	"Vendredi"
+          				],
+          				"opens": "10:00",
+          				"closes": "19:00"
+        			}
 				],
 			  "url": "https://cyril-hub-76.github.io/NinaCarducci/"
 			}
